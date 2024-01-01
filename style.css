@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Cinzel+Decorative&family=Oswald:wght@700&family=Poppins:wght@400;600&family=Raleway:wght@200;400;600&display=swap');
+
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1591302418462-eb55463b49d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1851&q=80");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.countdown-container {
+    display: flex;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
